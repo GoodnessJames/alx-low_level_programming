@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 /**
 * main - Print code line with strlen
