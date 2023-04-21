@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
-* main - Prints all possible combinations of single-digit numbers using the
+* main - Prints all possible combinations of two-digit numbers using the
 * putchar function
 * Return: 0
 */
@@ -11,16 +11,19 @@ int main(void)
 
 	int num2;
 
-	for (num1 = 0; num1 < 7; num1++)
+	for (num1 = 0; num1 < 9; num1++)
 	{
-		for (num2 = 1; num2 < 8; num2++)
+		for (num2 = num1 + 1; num2 < 10; num2++)
 		{
+			if (num1 != num2)
+			{
 			putchar((num1 % 10) + '0');
 			putchar((num2 % 10) + '0');
-		if (num1 == 6 && num2 == 7)
+			if (num1 == 8 && num2 == 9)
 			continue;
 		putchar(',');
 		putchar(' ');
+			}
 		}
 	}
 	putchar('\n');
