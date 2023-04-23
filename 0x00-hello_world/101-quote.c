@@ -1,12 +1,18 @@
 #include <stdio.h>
 #include <unistd.h>
+#include <string.h>
 
 /**
-* main - Print code line with strlen
-* Return: 1
-*/
+ * main - Print line of code using the 'unistd.h' header file and 'write'
+ * function
+ * Return: 1
+ */
 int main(void)
 {
-	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
+	char text[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
+
+	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n",
+			strlen(text));
+
 	return (1);
 }
