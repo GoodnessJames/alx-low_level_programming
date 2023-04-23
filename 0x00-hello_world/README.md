@@ -1,37 +1,58 @@
-# Description of each Shell Script in the Tasks
+# Project: 0x00. C - Hello, World
 
-## Shell Script of Task 0
+The following are descriptions of each task in the project:
 
-- Creates a script that switches the current user to the user betty
+## 0. Preprocessor
 
-## Shell Script of Task 1
+The script of this task runs a C file through the preprocessor and saves the result into another file
+- The C file name is saved in the variable $CFILE
+- The output should is saved in the file c
 
-- Prints the effective username of the current user
+## 1. Compiler
 
-## Shell Script of Task 2
+The script of this task compiles a C file but does not link it
+- The C file name is saved in the variable $CFILE
+- The output file is named the same as the C file, but with the extension .o instead of .c
 
-- Prints all the groups the current user is part of
+## 2. Assembler
 
-## Shell Script of Task 3
+The script of this task generates the assembly code of a C code and saves it in an output file
+- The C file name is saved in the variable $CFILE
+- The output file is named the same as the C file, but with the extension .s instead of .c
 
-- Changes the owner of the file hello to the user betty
+## 3. Name
 
-## Shell Script of Task 4
+The script of this task compiles a C file and creates an executable named cisfun
+- The C file name is saved in the variable $CFILE
 
-- Creates an empty file called hello
+## 4. Hello, puts
 
-## Shell Script of Task 5
+The C program of this task prints exactly "Programming is like building a multilingual puzzle, followed by a new line
+- The puts function was used
+- The printf function was not used
+- The program ends with the value 0
 
-- Adds execute permission to the owner of the file hello
+## 5. Hello, printf
 
-## Shell Script of Task 6
+A C-program that prints exactly: with proper grammar, but the outcome is a piece of art, followed by a new line.
+- The printf function was used
+- The program ends with the value 0
+- The program compiles without warning when using the -Wall gcc option
 
-- Adds execute permission to the owner and the group owner, and read permission to other users, to the file hello
+## 6. Size is not grandeur, and territory does not make a nation
 
-## Shell Script of Task 7
+A C-program that prints the size of various types on the computer it is compiled and run on.
+In this program warnings are allowed and the program ends with the value 0.
 
-- Adds execution permission to the owner, the group owner and the other users, to the file hello
+## 7. Intel
 
-## Shell Script of Task 8
+A bash script that generates the assembly code (Intel syntax) of a C code and save it in an output file.
+- The C file name is saved in the variable $CFILE.
+- The output file is named the same as the C file, but with the extension .s instead of .c
 
-- Sets the permission to the file hello as follows:
+## 8. UNIX is basically a simple operating system, but you have to be a genius to understand the simplicity
+
+A C-program that prints exactly: and that piece of art is useful" - Dora Korpar, 2015-10-19, followed by a new line, to the standard error.
+- The functions listed in the NAME section of the man (3) printf or man (3) puts were not used
+- The program returns 1
+- The program compiles without any warnings when using the -Wall gcc option
