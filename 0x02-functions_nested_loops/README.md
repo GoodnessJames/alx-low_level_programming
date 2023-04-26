@@ -24,33 +24,52 @@ Checks for lowercase character
 - Returns 0 otherwise
 ## C-Program of Task 4
 
-- Print all the letters except q and e using the putchar function
+Checks for alphabetic character
+- Prototype: int _isalpha(int c);
+- Returns 1 if c is a letter, lowercase or uppercase
+- Returns 0 otherwise
 
 ## C-Program of Task 5
 
-- Prints all single digit numbers of base 10 starting from 0, followed by a new line
+Prints the sign of a number.
+- Prototype: int print_sign(int n);
+- Returns 1 and prints + if n is greater than zero
+- Returns 0 and prints 0 if n is zero
+- Returns -1 and prints - if n is less than zero
 
 ## C-Program of Task 6
 
--  Prints all single digit numbers of base 10 starting from 0, followed by a new line using the putchar function ONLY twice (Variable type char was not used)
+Computes the absolute value of an integer
+- Prototype: int _abs(int);
 
 ## C-Program of Task 7
 
-- Prints the lowercase alphabet in reverse, followed by a new line using the putchat function ONLY twice
+Prints the last digit of a number
+- Prototype: int print_last_digit(int);
+- Returns the value of the last digit
 
 ## C-Program of Task 8
 
-- Prints all the numbers of base 16 in lowercase, followed by a new line using ONLY the putchat function three times. 
+Prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59
+- Prototype: void jack_bauer(void);
 
 ## C-Program of Task 9
 
-- Prints all possible combinations of single-digit numbers
-- Numbers are separated by comma, followed by a space
-- Numbers are printed in ascending order
-- The putchar function was ONLY used four times maximum in the code
-- Variable of type char was not used
+Prints the 9 times table, starting with 0
+- Prototype: void times_table(void);
 
 ## C-Program of Task 10
 
-Prints all possible different combinations of two digits
-- Numbers are separated by comma, followed by a space
+Adds two integers and returns the result
+- Prototype: int add(int, int);
+
+## C-Program of Task 11
+
+Prints all natural numbers from n to 98, followed by a new line
+- Prototype: void print_to_98(int n);
+- Numbers are separated by a comma, followed by a space
+- Numbers are printed in order
+- The first printed number is the number passed to your function
+- The last printed number is 98
+- The standard library is not used
+
