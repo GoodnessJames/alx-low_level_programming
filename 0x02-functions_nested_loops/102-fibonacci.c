@@ -7,18 +7,24 @@
  */
 int main(void)
 {
-	unsigned long int n, n1 = 0, n2 = 1, sum = 0;
+	int n;
+
+	unsigned long int n1 = 0, n2 = 1, sum = 0;
 
 	for (n = 0; n < 50; n++)
 	{
 		sum = n1 + n2;
 
-		printf("%lu, ", sum);
+		printf("%lu", sum);
 
 		n1 = n2;
 		n2 = sum;
+
+		if (n == 49)
+			printf("\n");
+		else
+			printf(", ");
 	}
-	printf("\n");
 
 	return (0);
 }
