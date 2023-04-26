@@ -13,12 +13,16 @@ int main(void)
 	{
 		sum = n1 + n2;
 
-		printf("%lu, ", sum);
+		printf("%lu", sum);
 
 		n1 = n2;
 		n2 = sum;
+
+		if (n == 97)
+			printf("\n");
+		else
+			printf(", ");
 	}
-	printf("\n");
 
 	return (0);
 }
