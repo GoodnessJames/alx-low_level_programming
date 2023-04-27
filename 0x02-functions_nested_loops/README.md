@@ -22,6 +22,7 @@ Checks for lowercase character
 - Prototype: int _islower(int c);
 - Returns 1 if c is lowercase
 - Returns 0 otherwise
+
 ## C-Program of Task 4
 
 Checks for alphabetic character
@@ -72,4 +73,3 @@ Prints all natural numbers from n to 98, followed by a new line
 - The first printed number is the number passed to your function
 - The last printed number is 98
 - The standard library is not used
-
