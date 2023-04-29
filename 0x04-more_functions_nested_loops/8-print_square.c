@@ -2,7 +2,7 @@
 
 /**
  * print_square - prints a square followed by a new line on the terminal
- * @size: The number of times the character \ should be printed
+ * @size: The number of times the character # should be printed
  *
  * Return: void
  */
