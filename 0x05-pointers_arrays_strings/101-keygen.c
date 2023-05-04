@@ -10,16 +10,19 @@
  */
 int main(void)
 {
-	int index;
-	srand(time(NULL));
-
 	char characters[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_+-=";
+	
 	char password[PASSWORD_ELEMENTS + 1];
+	
+	password[PASSWORD_ELEMENTS] = '\0';
+	
+	srand(time(NULL));
+	
+	int index;
 	
 	for (index = 0; index < PASSWORD_ELEMENTS; index++)
 		password[index] = characters[rand() % (sizeof(characters) - 1)];
 	
-	password[PASSWORD_ELEMENTS] = '\0';
 
 	printf("The Random password generated is: %s\n", password);
 	
