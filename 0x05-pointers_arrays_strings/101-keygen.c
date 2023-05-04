@@ -10,9 +10,9 @@
  */
 int main(void)
 {
+	char characters[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_+-=";
 	srand(time(NULL));
 
-	char characters[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_+-=";
 	char password[PASSWORD_ELEMENTS + 1];
 	for (int index = 0; index < PASSWORD_ELEMENTS; index++)
 		password[index] = characters[rand() % (sizeof(characters) - 1)];
