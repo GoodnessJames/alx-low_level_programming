@@ -10,13 +10,11 @@
  */
 int main(void)
 {
-	char password[PASSWORD_ELEMENTS + 1];
-	int index;
 	srand(time(NULL));
 
 	char characters[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_+-=";
-	
-	for (index = 0; index < PASSWORD_ELEMENTS; index++)
+	char password[PASSWORD_ELEMENTS + 1];
+	for (int index = 0; index < PASSWORD_ELEMENTS; index++)
 		password[index] = characters[rand() % (sizeof(characters) - 1)];
 
 	password[PASSWORD_ELEMENTS] = '\0';
