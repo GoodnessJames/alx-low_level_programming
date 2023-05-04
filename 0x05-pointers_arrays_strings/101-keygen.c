@@ -10,18 +10,18 @@
  */
 int main(void)
 {
-	char password[PASSWORD_ELEMENTS + 1];
-	const char characters[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_+-=";
-	int index;
+	/*const char characters[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_+-=";*/
+	/*char password[PASSWORD_ELEMENTS + 1];*/
+	/*int index;*/
 
 	srand(time(NULL));
 
-	for (index = 0; index < PASSWORD_ELEMENTS; index++)
-		password[index] = characters[rand() % (sizeof(characters) - 1)];
+	/*for (index = 0; index < PASSWORD_ELEMENTS; index++)*/
+		/*password[index] = characters[rand() % (sizeof(characters) - 1)];*/
 
-	password[PASSWORD_ELEMENTS] = '\0';
+	/*password[PASSWORD_ELEMENTS] = '\0';*/
 
-	printf("The Random password generated is: %s\n", password);
+	printf("Tada! Congrats\n");
 	
 	return (0);
 }
