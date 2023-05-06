@@ -1,4 +1,3 @@
-#include <stdlib.h>
 #include <string.h>
 
 /**
@@ -9,27 +8,22 @@
  */
 char *leet(char *str)
 {
-	char *result = malloc(strlen(str) + 1);
-	int input, output;
-	char letter;
+	char *result = str;
+	char letter_set[] = {'a', 'e', 'o', 't', 'l', 'A', 'E', 'O', 'T', 'L'};
+	char replace_set[] = {'4', '3', '0', '7', '1', '4', '3', '0', '7', '1'};
+	int input;
 
-	for (input = 0, output = 0; str[input] != '\0'; input++, output++)
+	for (input = 0; str[input] != '\0'; input++)
 	{
-		letter = str[input];
-		if (letter == 'a' || letter == 'A')
-			result[output] = '4';
-		else if (letter == 'e' || letter == 'E')
-			result[output] = '3';
-		else if (letter == 'o' || letter == 'O')
-			result[output] = '0';
-		else if (letter == 't' || letter == 'T')
-			result[output] = '7';
-		else if (letter == 'l' || letter == 'L')
-			result[output] = '1';
-		else
-			result[output] = letter;
-	}
-	result[output] = '\0';
+		char current_letter = str[input];
+		char *position = strchr(letter_set, current_letter);
 
+		if (position != NULL)
+		{
+			int i = position - letter_set;
+
+			result[input] = replace_set[i];
+		}
+	}
 	return (result);
 }
