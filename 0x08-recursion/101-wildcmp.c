@@ -5,8 +5,8 @@
  * @s1: Pointer to the first string to be compared
  * @s2: Pointer to the second string to be compared
  *
- * Return: Returns (*s1 == '\0'), (1), (wildcmp(s1, s2 + 1)), or
- *		   (_strncmp(s1, s2, 0))
+ * Return: Returns (*s1 == '\0'), (1), (wildcmp(s1, s2 + 1)),
+ *		   (wildcmp(s1, s2 + 1)), (wildcmp(s1 + 1, s2 + 1)) or (0)
  */
 int wildcmp(char *s1, char *s2)
 {
