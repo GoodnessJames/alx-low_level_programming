@@ -7,7 +7,7 @@
  * @src: The source string to concatenate from
  * @n: The number chracters to concatenate
  *
- * Return: Returns a pointer to the resulting string dest
+ * Return: Return (dest)
  */
 char *_strncat(char *dest, char *src, int n)
 {
