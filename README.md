@@ -1,7 +1,5 @@
 # ALX Low Level Programming
-## Project: 0x00. C - Hello, World
-
-This repository is focused on C-programming and it covers the following objectives:
+This repository covers everything on low level programming in C. The following are the learning objectives of this repository:
 - Why C programming is awesome
 - Who invented C
 - Who are Dennis Ritchie, Brian Kernighan and Linus Torvalds
