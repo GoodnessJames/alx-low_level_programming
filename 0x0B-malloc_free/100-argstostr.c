@@ -40,4 +40,5 @@ char *argstostr(int ac, char **av)
 	ptStr[index] = '\0';
 
 	return (ptStr);
+	free(ptStr);
 }
