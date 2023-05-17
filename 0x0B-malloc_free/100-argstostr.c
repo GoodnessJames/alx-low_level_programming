@@ -31,6 +31,7 @@ char *argstostr(int ac, char **av)
 	{
 		for (chars = 0; av[arg][chars] != '\0'; chars++)
 			ptStr[index++] = av[arg][chars];
+
 		ptStr[index++] = '\n';
 	}
 	ptStr[index++] = '\0';
