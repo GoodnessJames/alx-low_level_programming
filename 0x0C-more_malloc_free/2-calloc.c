@@ -6,7 +6,7 @@
  * @nmemb: The total number of elements in the array
  * @size: The total size alloctated in bytes
  *
- * Return: returns (ptr) on SUCCESS
+ * Return: returns (ptr) on SUCCESS or (NULL) on FAILURE
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
