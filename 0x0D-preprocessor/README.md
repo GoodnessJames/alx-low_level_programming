@@ -1,4 +1,4 @@
-# PROJECT: 0x0D. C - Preprocessor
+# Project: 0x0D. C - Preprocessor
 
 This project is centered on the following points:
 - Understanding C program Compilation Process
