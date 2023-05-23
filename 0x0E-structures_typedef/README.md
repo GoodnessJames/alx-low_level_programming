@@ -4,6 +4,7 @@ This project is centered on the following points:
 - Structures in C
 - Structure documentation
 - Typdef
+
 The following are descriptions of each file created for solving the tasks:
 ## Task 0
 
