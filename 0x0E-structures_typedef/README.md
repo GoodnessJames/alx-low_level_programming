@@ -1,13 +1,13 @@
 # Project: 0x0E. C - Structures, typedef
 
 This project is centered on the following points:
-- Structures
+- Structures in C
 - Structure documentation
 - Typdef
 
 ## Task 0
 
-The file (dog.h) in this task define a new type struct dog with the following elements:
+The file (dog.h) in this task defines a new type struct dog with the following elements:
 - name, type = char *
 - age, type = float
 - owner, type = char *
