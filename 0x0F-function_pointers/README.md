@@ -44,10 +44,11 @@ In this task, a program is created that performs simple operations.
 - if the operator is none of the above, Error is printed, followed by a new line, with an exit status of 99
 - if the user tries to divide (/ or %) by 0, Error is printed, followed by a new line, with an exit status 100
 
-### Description of the four files required for this task
+### Description of the four files required for task 3
 
 - 3-calc.h: This file contains all the function prototypes and data structures used by the program. 
 - 3-op_functions.c: This function contains not more than the 5 following functions:
+
 	op_add: returns the sum of a and b. Prototype: int op_add(int a, int b);
 	op_sub: returns the difference of a and b. Prototype: int op_sub(int a, int b);
 	op_mul: returns the product of a and b. Prototype: int op_mul(int a, int b);
