@@ -1,13 +1,15 @@
 # Project: 0x0E. C - Structures, typedef
 
 This project is centered on the following points:
-- Structures
+- Structures in C
 - Structure documentation
 - Typdef
 
+The following are descriptions of each file created for solving the tasks in the project:
+
 ## Task 0
 
-The file (dog.h) in this task define a new type struct dog with the following elements:
+The file (dog.h) in this task defines a new type struct dog with the following elements:
 - name, type = char *
 - age, type = float
 - owner, type = char *
@@ -19,7 +21,7 @@ In this file (1-init_dog.c), a function is written that initializes a variable o
 
 ## Task 2
 
-In this file (2-print_dog.c), a function is written that prints a struct dog
+In this file (2-print_dog.c), a function is written that prints the structure - struct dog
 - Prototype: void print_dog(struct dog *d);
 - The standard library was used
 - If an element of d is NULL, (nil) is printed instead of the element ( ie if name is NULL, Name: (nil) is printed)
