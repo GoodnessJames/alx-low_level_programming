@@ -1,9 +1,9 @@
 # Project: 0x10. C - Variadic functions
 
 This project is centered on variadic functions and the following are the concepts covered in this project:
-- stdarg.h: This is a header file that provides facilities for working with variadic functions. It contains a set of macros and functions that help handle the argument list of a variadic function. The key macros and functions defined in stdarg.h are: va_list, va_start, va_arg, va_copy. and va_end.
-- Variadic Functions: Variadic functions are functions that accept varrying number of arguments. The number of arguments can be of any type. Variadic functions are declared using the ellipsis (...) as the last parameter in the function declaration. Here's the general syntax for declaring a variadic function: return_type function_name(type1 arg1, type2 arg2, ...);
-- Const Keyword: This is a keyword used to declare a variable as a constant, thereby keeping its value fixed and not modified once it has been initialized. The general syntax for declaring a constant variable is: const data_type variable_name = value;
+- **stdarg.h:** This is a header file that provides facilities for working with variadic functions. It contains a set of macros and functions that help handle the argument list of a variadic function. The key macros and functions defined in stdarg.h are: va_list, va_start, va_arg, va_copy. and va_end.
+- **Variadic Functions:** Variadic functions are functions that accept varrying number of arguments. The number of arguments can be of any type. Variadic functions are declared using the ellipsis (...) as the last parameter in the function declaration. Here's the general syntax for declaring a variadic function: return_type function_name(type1 arg1, type2 arg2, ...);
+- **Const Keyword:** This is a keyword used to declare a variable as a constant, thereby keeping its value fixed and not modified once it has been initialized. The general syntax for declaring a constant variable is: const data_type variable_name = value;
 
 ## Description of each function file of the tasks in the project
 
