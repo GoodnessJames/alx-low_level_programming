@@ -1,12 +1,12 @@
 # Project: 0x0F. C - Function pointers
 
-This project is centered on function pointers in c, their releveance and application to programs.
+This project is centered on function pointers in c, their releveance and application to C programs.
 
 ## Descriprtion of the files created for each task in the project
 
 ## Task 0 File: 0-print_name.c
 
-For this task, a file (0-print_name.c) is created, and a function is written in the file that prints a name
+For this task, a file (0-print_name.c) was created, and a function is written in the file that prints a name
 - Prototype: void print_name(char *name, void (*f)(char *));
 
 ## Task 1 File: 1-array_iterator.c
