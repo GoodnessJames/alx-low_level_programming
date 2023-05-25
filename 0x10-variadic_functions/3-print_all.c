@@ -86,11 +86,11 @@ void print_all(const char * const format, ...)
 	};
 	va_start(args, format);
 
-	while (format[i])
+	while (format && (*(format + i)))
 	{
 		int j = 0;
 
-		while (j < 4 && func[j].symbol[0] != format[i])
+		while (j < 4 && (*(format + i) != *(func[j].symbol)))
 			j++;
 		if (j < 4)
 		{
