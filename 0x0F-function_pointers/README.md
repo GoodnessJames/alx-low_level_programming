@@ -1,6 +1,6 @@
 # Project: 0x0F. C - Function pointers
 
-This project is centered on function pointers in c, their releveance and application to programs.
+This project is centered on function pointers in C, their releveance and application to C programs.
 
 ## Descriprtion of the files created for each task in the project
 
@@ -84,13 +84,12 @@ File Requirements:
 
 In this file, a program is written that prints the opcodes of its own main function.
 - Usage: ./main number_of_bytes
-- Output format:
 - the opcodes is printed in hexadecimal, lowercase
 - each opcode is two char long
 - listing ends with a new line
-- printf and atoi function was used in this program
-- atoi was used to convert the argument to an int
+- printf and atoi function is used in this program
+- atoi is used to convert the argument to an int
 - If the number of argument is not the correct one, Error is printed, followed by a new line, with an exit status of 1
 - If the number of bytes is negative, Error is printed, followed by a new line, with an exit status of 2
 - Compiling with any flags is optional
-- To translate the opcodes to assembly instructions, udcli can be implemented.
+- Note: To translate the opcodes to assembly instructions, udcli can be implemented.
