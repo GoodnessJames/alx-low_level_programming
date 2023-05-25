@@ -84,7 +84,6 @@ File Requirements:
 
 In this file, a program is written that prints the opcodes of its own main function.
 - Usage: ./main number_of_bytes
-- Output format:
 - the opcodes is printed in hexadecimal, lowercase
 - each opcode is two char long
 - listing ends with a new line
