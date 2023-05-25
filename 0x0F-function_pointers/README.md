@@ -1,6 +1,6 @@
 # Project: 0x0F. C - Function pointers
 
-This project is centered on function pointers in c, their releveance and application to C programs.
+This project is centered on function pointers in C, their releveance and application to C programs.
 
 ## Descriprtion of the files created for each task in the project
 
