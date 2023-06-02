@@ -4,8 +4,7 @@
  * list_len - Returns the number of elements in a linked list_t list
  * @h: Pointer to the linked list (list_t)
  *
- * Return: On SUCCESS, returns (elements) which is the number of elements
- *		   On FAILURE, returns (-1) which signifies an error
+ * Return: ALWAYS return (elements) which is the number of elements of the list
  */
 size_t list_len(const list_t *h)
 {
