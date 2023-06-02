@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * list_len - Returns the number of elements in a linked list_t list
+ * list_len - Returns the number of elements in thr linked list_t list
  * @h: Pointer to the linked list (list_t)
  *
  * Return: ALWAYS return (elements) which is the number of elements of the list
