@@ -13,7 +13,7 @@ size_t list_len(const list_t *h)
 	const list_t *tmp;
 
 	if (h == NULL)
-		return (-1);
+		return (elements);
 	tmp = h;
 	while (tmp != NULL)
 	{
