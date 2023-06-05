@@ -4,7 +4,7 @@
  * print_list - This function prints all the elements of a list_t list
  * @h: Pointer to the linked list (list_t)
  *
- * Return: ALWAYS return (nodes) which is the number of nodes of the list
+ * Return: ALWAYS return (nodes); which is the number of nodes of the list
  */
 size_t print_list(const list_t *h)
 {
