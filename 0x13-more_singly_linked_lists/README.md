@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is the continuation of project - 0x12. C - Singly linked lists. This project involves further node operations on a linked list such as: 
+This project is the continuation of project - [0x12. C - Singly linked lists](https://github.com/GoodnessJames/alx-low_level_programming/tree/master/0x12-singly_linked_lists). This project involves further node operations on a linked list such as: 
 	- Insertion at the beginning, end, or middle of a linked list
 	- Deletion of a node from a linked list
 	- Traversing a linked list to access or display elements
