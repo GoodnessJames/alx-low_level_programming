@@ -1,4 +1,4 @@
-# Project Title: Singly Linked Lists in C (0x13. C - More Singly linked lists)
+# Project Title: 0x13. C - More Singly linked lists
 
 ## Overview
 
