@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is the continuation of project - 0x12. C - Singly linked lists. This project involves further operations on a linked list such such: 
+This project is the continuation of project - 0x12. C - Singly linked lists. This project involves further node operations on a linked list such such: 
 	- Insertion at the beginning, end, or middle of a linked list
 	- Deletion of a node from a linked list
 	- Traversing a linked list to access or display elements
