@@ -3,10 +3,14 @@
 ## Overview
 
 This project is the continuation of project - [0x12. C - Singly linked lists](https://github.com/GoodnessJames/alx-low_level_programming/tree/master/0x12-singly_linked_lists). This project involves further node operations on a linked list such as:
-
-	- Insertion at the beginning, end, or middle of a linked list
-	- Deletion of a node from a linked list
-	- Traversing a linked list to access or display elements
+- Insertion at the beginning, end, middle, or at a given position of a linked list
+- Traversing a linked list to access and display elements
+- Freeing a list with a double pointer passed as an argument
+- Returning the nth node of a linked list
+- Returning the sum of all data of a linked list
+- Deletion of a node from the beginning, end, middle, or at a given position of a linked list
+- Reversing a linked list
+- Finding the loop in a linked list
 
 The time and space complexity of operations differs and depends on the operation being carried out. The time complexity refers to the amount of time required for an operation to carried out while space complexity refers to how much of memory space is required and how memory is utilized for a given operation.
 
