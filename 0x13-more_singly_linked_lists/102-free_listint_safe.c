@@ -1,53 +1,92 @@
 #include "lists.h"
 
-size_t count_listint(listint_t *h);
+size_t count_listint_nodes(listint_t *head);
 size_t free_listint_safe(listint_t **h);
 
 /**
- * count_listint - Counts the number of nodes in a listint_t list
- * @h: A pointer to the first node of the linked list (listint_t)
+ * count_listint_nodes - Counts the number of nodes in a linked list
+ * @head: A pointer to the first node of the listint_t
  *
- * Return: On SUCCESS, returns (nodes) i.e. the size of the free'd list
- *		   On FAILURE, returns (0)
+ * Return: On SUCCESS, returns (nodes) i.e. the number of nodes in the list
+ *         On FAILURE, returns (0)
  */
-size_t count_listint(listint_t *h)
+size_t count_listint_nodes(listint_t *head)
 {
-	size_t nodes = 0;
-	listint_t *tmp;
+	listint_t *tmp1, *tmp2;
+	size_t nodes = 1;
 
-	if (h == 0 || h->next == 0)
+	if (head == 0 || head->next == 0)
 		return (0);
-	tmp = h;
-	while (tmp)
+
+	tmp1 = head->next;
+	tmp2 = (head->next)->next;
+
+	while (tmp2)
 	{
-		nodes++;
-		tmp = tmp->next;
+		if (tmp1 == tmp2)
+		{
+			tmp1 = head;
+			while (tmp1 != tmp2)
+			{
+				nodes++;
+				tmp1 = tmp1->next;
+				tmp2 = tmp2->next;
+			}
+
+			tmp1 = tmp1->next;
+			while (tmp1 != tmp2)
+			{
+				nodes++;
+				tmp1 = tmp1->next;
+			}
+
+			return (nodes);
+		}
+
+		tmp1 = tmp1->next;
+		tmp2 = (tmp2->next)->next;
 	}
-	return (nodes);
+
+	return (0);
 }
 
 /**
- * free_listint_safe - This function frees a listint_t list
- * @h: A 2-step pointer to the first node of the linked list (listint_t)
+ * free_listint_safe - Frees a listint_t list safely
+ * @h: A step pointer to the first node of the linked list
  *
- * Return: On SUCCESS, returns (nodes) i.e. the size of the free'd list
- *		   On FAILURE, returns (0)
+ * Return: Returns (nodes) i.e. the size of the list that was freed
  */
 size_t free_listint_safe(listint_t **h)
 {
-	size_t nodes = count_listint(*h);
-	listint_t *tmp = *h;
-	listint_t *current = 0;
+	listint_t *tmp;
+	size_t nodes, i;
 
-	if (h == 0 || *h == 0)
-		return (0);
-	while (tmp)
+	nodes = count_listint_nodes(*h);
+
+	if (nodes == 0)
 	{
-		current = tmp->next;
-		free(tmp);
-		tmp = current;
+		while (h != 0 && *h != 0)
+		{
+			tmp = (*h)->next;
+			free(*h);
+			*h = tmp;
+			nodes++;
+		}
 	}
-	*h = NULL;
+
+	else
+	{
+		for (i = 0; i < nodes; i++)
+		{
+			tmp = (*h)->next;
+			free(*h);
+			*h = tmp;
+		}
+
+		*h = NULL;
+	}
+
+	h = NULL;
 
 	return (nodes);
 }
