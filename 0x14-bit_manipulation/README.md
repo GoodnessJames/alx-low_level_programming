@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Bit manipulation in C involves performing operations on individual bits of a binary number using bitwise operators (&, |, ^, <<, >>). These operators allows manipulation and extraction specific bits and perform logical operations on individual bits.
+Bit manipulation in C involves performing operations on individual bits of a binary number using bitwise operators (&, |, ^, <<, >>). These operators allows manipulation and extraction of specific bits and perform logical operations on the individual bits.
 
 **Common Bitwise Operators Used in C**
 
