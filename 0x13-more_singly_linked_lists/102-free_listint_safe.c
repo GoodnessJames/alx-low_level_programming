@@ -1,16 +1,16 @@
 #include "lists.h"
 
-size_t count_listint_nodes(listint_t *head);
+size_t count_listint_elements(listint_t *head);
 size_t free_listint_safe(listint_t **h);
 
 /**
- * count_listint_nodes - Counts the number of nodes in a linked list
+ * count_listint_elements - Counts the number of nodes in a linked list
  * @head: A pointer to the first node of the listint_t
  *
  * Return: On SUCCESS, returns (nodes) i.e. the number of nodes in the list
  *         On FAILURE, returns (0)
  */
-size_t count_listint_nodes(listint_t *head)
+size_t count_listint_elements(listint_t *head)
 {
 	listint_t *tmp1, *tmp2;
 	size_t nodes = 1;
@@ -61,7 +61,7 @@ size_t free_listint_safe(listint_t **h)
 	listint_t *tmp;
 	size_t nodes, i;
 
-	nodes = count_listint_nodes(*h);
+	nodes = count_listint_elements(*h);
 
 	if (nodes == 0)
 	{
