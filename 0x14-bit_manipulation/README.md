@@ -40,4 +40,32 @@ The content of this project directory includes:
 	- The parameter b is a pointer to a string of 0 and 1 characters.
 	- Return: On SUCCESS, returns the converted number. On FAILURE, returns (0) if b is NULL or contains chars not 0 or 1
 - **Task 1 File:** [1-print_binary.c](https://github.com/GoodnessJames/alx-low_level_programming/blob/master/0x14-bit_manipulation/1-print_binary.c)
-
+	- Prototype: void print_binary(unsigned long int n);
+	- Description: C function that prints the binary representation of a number.
+	- The parameter n is the number to be printed
+	- Return: Void
+- **Task 2 File:** [2-get_bit.c](https://github.com/GoodnessJames/alx-low_level_programming/blob/master/0x14-bit_manipulation/2-get_bit.c)
+	- Prototype: int get_bit(unsigned long int n, unsigned int index);
+	- Description: C function that returns the value of a bit at a given index.
+	- Parameters: n is the bit, index is the index to get the value at (index starts at 0)
+	- Return: On SUCCESS, returns the value of bit at index - index. On FAILURE, returns (-1) to indicate an error occurred
+- **Task 3 File:** [3-set_bit.c](https://github.com/GoodnessJames/alx-low_level_programming/blob/master/0x14-bit_manipulation/3-set_bit.c)
+	- Prototype: int set_bit(unsigned long int *n, unsigned int index);
+	- Description: C function that sets the value of a bit at a given index to 1.
+	- Parameters: n is a pointer to an unsigned long int, index is the index to get the value at (index starts at 0)
+	- Return: On SUCCESS, returns (1). On FAILURE, returns (-1) to indicate an error occurred
+- **Task 4 File:** [4-clear_bit.c](https://github.com/GoodnessJames/alx-low_level_programming/blob/master/0x14-bit_manipulation/4-clear_bit.c)
+	- Prototype: int clear_bit(unsigned long int *n, unsigned int index);
+	- Description: C function that sets the value of a bit at a given index to 0.
+	- Parameters: n is a pointer to an unsigned long int, index is the index to get the value at (index starts at 0)
+	- Return: On SUCCESS, returns (1). On FAILURE, returns (-1) to indicate an error occurred
+- **Task 5 File:** [5-flip_bits.c](https://github.com/GoodnessJames/alx-low_level_programming/blob/master/0x14-bit_manipulation/5-flip_bits.c)
+	- Prototype: unsigned int flip_bits(unsigned long int n, unsigned long int m);
+	- Description: C function that returns the number of bits needed to be flipped to get from one number to another.
+	- Parameters: n is the number to flip, m is the number to flip n to
+	- Return: Returns the number of bits flipped from n to m
+- **Task 6 File:** [100-get_endianness.c](https://github.com/GoodnessJames/alx-low_level_programming/blob/master/0x14-bit_manipulation/100-get_endianness.c)
+	-  Prototype: int get_endianness(void);
+	-  Description: C function that checks the endianness.
+	-  Parameters: No parameters (void)
+	-  Return: Returns (0) if big-endian, Returns (-1) if little-endian
