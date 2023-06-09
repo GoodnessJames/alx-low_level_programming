@@ -27,8 +27,10 @@ The objective of this project report is to demonstrate how bit manipulation is i
 ## Content of Project Directory
 
 The content of this project directory includes:
-- test: This folder contains all the test files provided by ALX School. The files in this directory helps to verify if the functions written work as expected.
-- 
+- [exe](https://github.com/GoodnessJames/alx-low_level_programming/tree/master/0x14-bit_manipulation/exe): This folder contains all executable files created from the function files compiled.
+- [test](https://github.com/GoodnessJames/alx-low_level_programming/tree/master/0x14-bit_manipulation/test): This folder contains all the test files provided by ALX School. The files in this directory helps to verify if the functions written work as expected.
+- [_putchar.c](https://github.com/GoodnessJames/alx-low_level_programming/blob/master/0x14-bit_manipulation/_putchar.c): This file is what is implemented in writing a character to the stdout. This file relevant for this project because it is stated in one of the project requirements that using any other standard library function is forbidden.
+- [main.h](): Header file that contains all the function prototypes written in the project.
 
 **The following tasks were carried out in this project to demonstrate the utilization of bit manipulation in problem solving:**
 
