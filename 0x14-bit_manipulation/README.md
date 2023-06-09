@@ -35,10 +35,10 @@ The content of this project directory includes:
 **Other than these files, the following are files created for each C function written for the tasks in this project to demonstrate the utilization of bit manipulation in problem solving:**
 
 - **Task 0 File:** [0-binary_to_uint.c](https://github.com/GoodnessJames/alx-low_level_programming/blob/master/0x14-bit_manipulation/0-binary_to_uint.c)
-- Prototype: unsigned int binary_to_uint(const char *b);
-- Description: C function that converts a binary number to an unsigned int.
-- The parameter b is a pointer to a string of 0 and 1 characters.
-- Return: On SUCCESS, returns (n) i.e. the converted number
+	- Prototype: unsigned int binary_to_uint(const char *b);
+	- Description: C function that converts a binary number to an unsigned int.
+	- The parameter b is a pointer to a string of 0 and 1 characters.
+	- Return: On SUCCESS, returns (n) i.e. the converted number
 			  On FAILURE, returns (0) if b is NULL or contains chars not 0 or 1
 - **Task 1 File:** [1-print_binary.c](https://github.com/GoodnessJames/alx-low_level_programming/blob/master/0x14-bit_manipulation/1-print_binary.c)
 
