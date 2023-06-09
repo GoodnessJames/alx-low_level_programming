@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Bit manipulation in C involves performing operations on individual bits of a binary number using bitwise operators (&, |, ^, <<, >>). These operators allows manipulation and extraction of specific bits and perform logical operations on the individual bits.
+Bit manipulation in C involves performing operations on individual bits of a binary number using bitwise operators (&, |, ^, ~, <<, >>). These operators allows manipulation and extraction of specific bits and perform logical operations on the individual bits.
 
 **Common Bitwise Operators Used in C**
 
@@ -27,7 +27,7 @@ The objective of this project report is to demonstrate how bit manipulation is i
 ## Content of the Project Directory
 
 The content of this project directory includes:
-- [exe](https://github.com/GoodnessJames/alx-low_level_programming/tree/master/0x14-bit_manipulation/exe): This folder contains all executable files created from the function files compiled.
+- [exe](https://github.com/GoodnessJames/alx-low_level_programming/tree/master/0x14-bit_manipulation/exe): This folder contains all the executable files created from the compiled function files.
 - [test](https://github.com/GoodnessJames/alx-low_level_programming/tree/master/0x14-bit_manipulation/test): This folder contains all the test files provided by ALX School. The files in this directory helps to verify if the functions written work as expected.
 - [_putchar.c](https://github.com/GoodnessJames/alx-low_level_programming/blob/master/0x14-bit_manipulation/_putchar.c): This file contains a custom putchar function that is implemented in writing a character to the stdout. This file is very relevant for this project because it is stated in one of the project requirements that using any other standard library function is forbidden. For this project, this function is used instead of printf.
 - [main.h](https://github.com/GoodnessJames/alx-low_level_programming/blob/master/0x14-bit_manipulation/main.h): Header file that contains all the function prototypes written in the project.
