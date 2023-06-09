@@ -24,7 +24,7 @@ Bit manipulation in C involves performing operations on individual bits of a bin
 
 The objective of this project report is to demonstrate how bit manipulation is implemented in providing efficient solutions to certain problems in low-level programming.
 
-## Content of Project Directory
+## Content of the Project Directory
 
 The content of this project directory includes:
 - [exe](https://github.com/GoodnessJames/alx-low_level_programming/tree/master/0x14-bit_manipulation/exe): This folder contains all executable files created from the function files compiled.
@@ -32,6 +32,14 @@ The content of this project directory includes:
 - [_putchar.c](https://github.com/GoodnessJames/alx-low_level_programming/blob/master/0x14-bit_manipulation/_putchar.c): This file contains a custom putchar function that is implemented in writing a character to the stdout. This file is very relevant for this project because it is stated in one of the project requirements that using any other standard library function is forbidden. For this project, this function is used instead of printf.
 - [main.h](https://github.com/GoodnessJames/alx-low_level_programming/blob/master/0x14-bit_manipulation/main.h): Header file that contains all the function prototypes written in the project.
 
-**The following tasks were carried out in this project to demonstrate the utilization of bit manipulation in problem solving:**
+**Other than these files, the following are files created for each C function written for the tasks in this project to demonstrate the utilization of bit manipulation in problem solving:**
 
+- Task 0 File: [0-binary_to_uint.c](https://github.com/GoodnessJames/alx-low_level_programming/blob/master/0x14-bit_manipulation/0-binary_to_uint.c)
+
+- **Prototype:** unsigned int binary_to_uint(const char *b);
+- **Description:** C function that converts a binary number to an unsigned int.
+- The parameter b is a pointer to a string of 0 and 1 characters.
+- **Return:** On SUCCESS, returns (n) i.e. the converted number
+			  On FAILURE, returns (0) if b is NULL or contains chars not 0 or 1
+- Task 1 File: [1-print_binary.c](https://github.com/GoodnessJames/alx-low_level_programming/blob/master/0x14-bit_manipulation/1-print_binary.c)
 
