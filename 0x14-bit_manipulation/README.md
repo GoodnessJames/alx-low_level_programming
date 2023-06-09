@@ -22,7 +22,7 @@ Bit manipulation in C involves performing operations on individual bits of a bin
 
 ## Objective of Project Report
 
-The objective of this project report is to demonstrate how bit manipulation is implemented to provide efficient solutions to certain problems in low-level programming.
+The objective of this project report is to demonstrate how bit manipulation is implemented in providing efficient solutions to certain problems in low-level programming.
 
 **The following tasks were carried out in this project to demonstrate the utilization of bit manipulation in problem solving:**
 
