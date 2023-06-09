@@ -20,9 +20,15 @@ Bit manipulation in C involves performing operations on individual bits of a bin
 - Setting or clearing specific bits in a number.
 - Extracting specific bits from a number.
 
-## Objective of Project Report
+## Objective of the Project Report
 
 The objective of this project report is to demonstrate how bit manipulation is implemented in providing efficient solutions to certain problems in low-level programming.
+
+## Content of Project Directory
+
+The content of this project directory includes:
+- test: This folder contains all the test files provided by ALX School. The files in this directory helps to verify if the functions written work as expected.
+- 
 
 **The following tasks were carried out in this project to demonstrate the utilization of bit manipulation in problem solving:**
 
