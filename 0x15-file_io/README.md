@@ -10,9 +10,9 @@ The objective of this project is to understand and implement file handling opera
 
 **The project is based upon the following file operations:**
 
-- **File Creation:** This is achieved by using the system call 'open()' defined in the library (#include<sys/stat.h>). This function takes a filename and mode as parameters. The modes include "O_RDONLY" (read only), "O_RWONLY" (write only), "O_RDRW" (read and write) and "O_APPEND" (append).
+- **File Creation:** This is achieved by using the system call 'open()' defined in the library (#include<sys/stat.h>). This function takes a filename and mode as parameters. The modes include "O_RDONLY" (read only), "O_WRONLY" (write only), "O_RDWR" (read and write) and "O_APPEND" (append).
 - **Writing Data to a File:** To write data to a file, the file descriptor will be passsed as an argument, followed by the buffer to write to and the size of bytes to write. Syntax: write(STDOUT_FILENO, buffer, 1024).
-- **Closing a File:** Once the file operations are complete, it is essential to close the file using the close() system call. Closing the file ensures that all changes are saved and the resources are released.
+- **Closing a File:** Once the file operations are complete, it is essential to close the file using the 'close()' system call. Closing the file ensures that all changes are saved and the resources are released.
 
 ## Implementation
 
@@ -32,7 +32,7 @@ The content of this project directory includes:
 	- Prototype: ssize_t read_textfile(const char *filename, size_t letters);
 	- Description: C function that reads a text file and prints it to the POSIX standard output.
 	- Parameters: filename: name of the file, letters: is the number of letters the function should read and print
-	- Return: On SUCCESS, returns the returns the actual number of bytes the function can read and print. On FAILURE, returns (0) to indicate file is empty or cannot be opened or read and the write call failed or did not write the expected number of bytes
+	- Return: On SUCCESS, returns the actual number of bytes the function can read and print. On FAILURE, returns (0) to indicate file is empty or cannot be opened or read and the write call failed or did not write the expected number of bytes
 - **Task 1 File:** 1-create_file.c
 	- Prototype: int create_file(const char *filename, char *text_content);
 	- Description: C function that creates a file.
@@ -54,7 +54,7 @@ The content of this project directory includes:
 
 ## Result:
 
-The results of the project include successful creation, reading, writing, appending and copying of data to files. The output can be observed by opening the generated file and examining its contents. Additionally, appropriate error handling techniques are implemented to handle file-related errors and exceptions.
+The results of the project include successful creation, reading, writing, appending, and copying of data to files. The output can be observed by opening the generated file and examining its contents. Additionally, appropriate error handling techniques are implemented to handle file-related errors and exceptions.
 
 ## Conclusion:
 
