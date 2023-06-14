@@ -7,7 +7,7 @@
  *
  * Return: On SUCCESS, returns (1)
  *         On FAILURE, returns (-1) to indicate function fail, NULL filename,
- *		   non-existent file or lack of 'write' permission for the user
+ *	   non-existent file or lack of 'write' permission for the user
  */
 int append_text_to_file(const char *filename, char *text_content)
 {
