@@ -1,4 +1,4 @@
-# 0x03-debugging
+# Project Title: 0x03-debugging
 
 ## Description of each Program in the Tasks
 
