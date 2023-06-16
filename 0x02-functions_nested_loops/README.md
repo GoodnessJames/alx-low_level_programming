@@ -1,4 +1,6 @@
-# Description of each Program in the Tasks
+# Project: 0x02-functions_nested_loops
+
+## Description of each Program in the Tasks
 
 ## C-Program of Task 0
 
