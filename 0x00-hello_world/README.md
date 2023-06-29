@@ -71,6 +71,5 @@ The C-program of this prints exactly: and that piece of art is useful" - Dora Ko
 ## Conclusion
 This project provides a comprehensive introduction to C programming through the creation of the C programs and implementation of C compilation steps. It serves as an excellent foundation for further exploration of the C language and prepares us for more complex programming tasks.
 
-```
+
 :upside_down_face: Don't worry, we'll meet again soon. C you around!
-```
