@@ -1,7 +1,8 @@
 # Project: 0x00. C - Hello, World
 
 ## Introduction
-:wave: Bienvenue and welcome to my first project with ALX Software Engineering School! In this project, my goal is to apply the C programming skills I've learned by creating a program that gives a desired output. By leveraging the tools and concepts taught at ALX, I aim to develop a functional program that showcases my understanding of C programming fundamentals. Throughout this project, I will be implementing key features and adhering to a timeline to achieve my desired outcomes. I'm so excited to embark on this learning journey and showcase my progress in C programming. Let's dive in and make it happen! :relaxed:
+:wave: Bienvenue and welcome to my first C programming project with ALX Software Engineering School! In this project, my goal is to 
+leverage the tools and concepts taught by ALX, to develop a functional program that showcases my understanding of C programming fundamentals. Throughout this project, I will be implementing key features and adhering to a timeline to achieve my desired outcomes. I'm so excited to embark on this learning journey and showcase my progress in C programming. Let's dive in and make it happen!:relaxed:
 
 ## Overview
 Welcome to the world of C programming! This project serves as an introductory guide to the fundamental concepts of the C programming language. This project gives a solid understanding of the basic syntax, structure, and workflow involved in C programming. The content of this project includes: Writing bash scripts that execute the C compilation process (Preprocessor, Compilation, Assembly, and Linking) and printing text to the standard output.
@@ -71,5 +72,5 @@ The C-program of this prints exactly: and that piece of art is useful" - Dora Ko
 This project provides a comprehensive introduction to C programming through the creation of the C programs and implementation of C compilation steps. It serves as an excellent foundation for further exploration of the C language and prepares us for more complex programming tasks.
 
 ```
-:) Don't worry, we'll meet again soon. C you around!
+:upside_down_face: Don't worry, we'll meet again soon. C you around!
 ```
