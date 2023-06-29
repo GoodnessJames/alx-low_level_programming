@@ -7,7 +7,7 @@ leverage the tools and concepts taught by ALX, to develop a functional program t
 ## Overview
 Welcome to the world of C programming! This project serves as an introductory guide to the fundamental concepts of the C programming language. This project gives a solid understanding of the basic syntax, structure, and workflow involved in C programming. The content of this project includes: Writing bash scripts that execute the C compilation process (Preprocessor, Compilation, Assembly, and Linking) and printing text to the standard output.
 
-## Description of Project Task
+## Description of Project Tasks
 The following are descriptions of each task in the project:
 
 ### 0. Preprocessor
