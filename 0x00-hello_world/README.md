@@ -1,4 +1,4 @@
-# Project: 0x00. C - Hello, World
+# Project Title: 0x00. C - Hello, World
 
 ## Introduction
 :wave: Bienvenue and welcome to my first C programming project with ALX Software Engineering School! In this project, my goal is to 
