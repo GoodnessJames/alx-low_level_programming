@@ -2,7 +2,7 @@
 
 ## Introduction
 :wave: Bienvenue and welcome to my first C programming project with ALX Software Engineering School! In this project, my goal is to 
-leverage the tools and concepts taught by ALX, to develop a functional program that showcases my understanding of C programming fundamentals. Throughout this project, I will be implementing key features and adhering to a timeline to achieve my desired outcomes. I'm so excited to embark on this learning journey and showcase my progress in C programming. Let's dive in and make it happen!:relaxed:
+leverage the tools and concepts taught by ALX, to develop a functional program that showcases my understanding of C programming fundamentals. Throughout this project, I will be implementing key features and adhering to a timeline to achieve my desired outcomes. I'm so excited to embark on this learning journey and showcase my progress in C programming. Let's dive in and make it happen!:blush:
 
 ## Overview
 Welcome to the world of C programming! This project serves as an introductory guide to the fundamental concepts of the C programming language. This project gives a solid understanding of the basic syntax, structure, and workflow involved in C programming. The content of this project includes: Writing bash scripts that execute the C compilation process (Preprocessor, Compilation, Assembly, and Linking) and printing text to the standard output.
