@@ -4,7 +4,7 @@
 
 ### Task 0: 0-reset_to_98.c
 
-The function (reset_to_98) in this file takes a pointer to an int as a parameter and updates the value it points to to 98.
+The function (reset_to_98) in this file takes a pointer to an int as a parameter and updates the value it points to 98.
 - Prototype: void reset_to_98(int *n);
 
 ### Task 1: 1-swap.c
