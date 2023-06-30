@@ -109,4 +109,4 @@ Prints all natural numbers from n to 98, followed by a new line
 - The standard library is not used
 
 ## Conclusion
-I acquired hands-on experience in working with loops and by understanding and effectively utilizing nested loops, I can efficiently process structured data and solve problems that involve multiple levels of iteration in C programs.
+I acquired hands-on experience in working with functions and loops. And by understanding and effectively utilizing functions and nested loops, I can efficiently process structured data and solve problems that involve multiple levels of iteration in C programs.
