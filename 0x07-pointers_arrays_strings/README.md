@@ -1,6 +1,6 @@
 # Project Title: 0x07. C - Even More Pointers, Arrays, and Strings
 
-## Description of each c-function file in the tasks
+## Description of each C-function File in the Tasks:
 
 ### Task 0: 0-memset.c
 
