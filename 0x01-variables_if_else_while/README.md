@@ -1,7 +1,7 @@
 # Project Title: 0x01-variables_if_else_while
 
 ## Introduction
-Variables, if, else, and while loop are fundamental constructs in C programming that enables the performance of decision-making and repetitive tasks based on specific conditions. Understanding and effectively using variables, if statements, else statements, and while loops are crucial for developing complex and flexible programs in C.
+Variables, if, else statements, and while loops are fundamental constructs in C programming that enables the performance of decision-making and repetitive tasks based on specific conditions. Understanding and effectively using variables, if statements, else statements, and while loops are crucial for developing complex and flexible programs in C.
 - **Variables:** Variables in C are used to store and manipulate data. They are named memory locations that hold values of a specific type, such as integers, characters, or floating-point numbers. Before using a variable, you need to declare it by specifying its data type and name. Variables can be assigned values and their contents can be modified throughout the program. if statement: The if statement is a control structure in C used for conditional execution. It allows you to make decisions and execute specific blocks of code based on a certain condition.
 
 The syntax of an if statement is as follows:
