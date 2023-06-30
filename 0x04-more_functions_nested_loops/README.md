@@ -3,7 +3,7 @@
 ## Overview
 This is the continuation of the project - [0x02-functions_nested_loops](https://github.com/GoodnessJames/alx-low_level_programming/tree/master/0x02-functions_nested_loops). The main **objective** of this project is to deepen our understanding and establish a solid foundation in the topic - **functions and nested loops.**
 
-The **aim** of this project is to gain more insight into the concept of functions and nested loops and their usage within the C programming language. Functions play a crucial role in organizing code, promoting reusability, and improving code readability. 
+This project aims to provide more insight into the concept and usage of functions and nested loops within the C programming language. Functions are integral to organizing code, enhancing reusability, and improving code readability by breaking it down into smaller, modular components.
 
 Furthermore, this project also presents more tasks on nested loops, which involve using loops within loops. Nested loops are particularly useful when dealing with complex patterns, iterative tasks, or multidimensional data structures.
 
