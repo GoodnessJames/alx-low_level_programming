@@ -1,4 +1,11 @@
-## 0x04. C - More functions, more nested loops
+# Project Title: 0x04. C - More functions, more nested loops
+
+## Overview
+This is the continuation of the project - [0x02-functions_nested_loops](https://github.com/GoodnessJames/alx-low_level_programming/tree/master/0x02-functions_nested_loops). The main **objective** of this project is to deepen our understanding and establish a solid foundation in the topic - **functions and nested loops.**
+
+The **aim** of this project is to gain more insight into the concept of functions and nested loops and their usage within the C programming language. Functions play a crucial role in organizing code, promoting reusability, and improving code readability. 
+
+Furthermore, this project also presents more tasks on nested loops, which involve using loops within loops. Nested loops are particularly useful when dealing with complex patterns, iterative tasks, or multidimensional data structures.
 
 ## Description of each Program in the Tasks
 
@@ -50,3 +57,6 @@ Computes the absolute value of an integer
 Prints the last digit of a number
 - Prototype: int print_last_digit(int);
 - Returns the value of the last digit
+
+## Conclusion
+By actively participating in this project, I enhanced my proficiency in implementing functions and utilizing nested loops effectively. This practical experience will contribute to my overall growth and competency in C programming, providing a solid foundation for future projects and endeavors.
