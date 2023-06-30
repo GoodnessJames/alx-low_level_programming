@@ -1,6 +1,25 @@
 # Project: 0x02-functions_nested_loops
 
-## Introduction
+## Introduction 
+Functions in C are self-contained blocks of code that execute a specific task when they are called or invoked. They play a crucial role in organizing and structuring programs, leading to improved readability, maintainability, and efficiency. 
+
+The structure of a function in C comprises a function **signature** (aka prototype), which encompasses the **return** type, function **name**, and **parameters**. Within the function body, the actual code resides, and it is executed whenever the function is called.
+
+**Here’s an illustration:**
+
+```
+Function signature/prototype: return_type function_name(parameters);
+
+Here’s a breakdown of a function declaration syntax: int print_alphabet(void);
+
+Function name: print_alphabet
+
+Description: Prints alphabets in lowercase
+
+Return type: Returns an integer
+
+Parameters: No parameters parsed (void)
+```
 A nested loop in C refers to the use of one loop inside another loop. It involves placing a loop structure (like a **for** loop, **while** loop, or **do-while** loop) within the body of another loop. This allows for multiple iterations of the inner loop for each iteration of the outer loop. Nested loops are particularly useful when working with multidimensional data structures, such as matrices or two-dimensional arrays. They enable you to iterate through each element or combination of elements in a structured and organized manner. 
 
 The basic structure of a nested loop in C looks like this: 
