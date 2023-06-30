@@ -1,4 +1,4 @@
-# Project Title: 0x05. C - Pointers, arrays, and strings
+# Project Title: 0x05. C - Pointers, Arrays, and Strings
 
 ## Description of each c-program file in the tasks
 
