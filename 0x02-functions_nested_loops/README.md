@@ -6,9 +6,9 @@ A nested loop in C refers to the use of one loop inside another loop. It involve
 The basic structure of a nested loop in C looks like this: 
 
 ```
-**for** (outer_loop_initialization; outer_loop_condition; outer_loop_update) 
+for (outer_loop_initialization; outer_loop_condition; outer_loop_update) 
 { /* Outer loop code */
-  **for** (inner_loop_initialization; inner_loop_condition; inner_loop_update)
+  for (inner_loop_initialization; inner_loop_condition; inner_loop_update)
     { /* Inner loop code */
     }
 }
