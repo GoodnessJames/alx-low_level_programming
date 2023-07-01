@@ -1,7 +1,7 @@
-# Project: 0x0D. C - Preprocessor
+# Project Title: 0x0D. C - Preprocessor
 
 This project is centered on the following points:
-- Understanding C program Compilation Process
+- Understanding the C program Compilation Process
 - Object-like Macros
 - Macro Arguments
 - Pre Processor Directives in C
@@ -10,7 +10,7 @@ This project is centered on the following points:
 - include guard
 - Common Predefined Macros
 
-The following are the tasks carried out on this topic to help solidify the theoritical knowledege gained from the learning resources:
+The following are the tasks carried out on this topic to help solidify the theoretical knowledge gained from the learning resources:
 
 ## Task 0
 

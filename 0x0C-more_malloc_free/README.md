@@ -6,7 +6,7 @@
 The function in this file allocates memory using malloc.
 - **Prototype:** void *malloc_checked(unsigned int b);
 - Returns a pointer to the allocated memory
-- if malloc fails, the malloc_checked function causes normal process termination with a status value of 98
+- If malloc fails, the malloc_checked function causes normal process termination with a status value of 98
 
 ### Task 1 File: 1-string_nconcat.c
 The function in this file concatenates two strings.
@@ -14,7 +14,7 @@ The function in this file concatenates two strings.
 - The returned pointer shall point to a newly allocated space in memory, which contains s1, followed by the first n bytes of s2, and null-terminated
 - If the function fails, it returns NULL
 - If n is greater or equal to the length of s2 then the entire string s2 is used
-- if NULL is passed, it is treated as an empty string
+- If NULL is passed, it is treated as an empty string
 
 ### Task 2 File: 2-calloc.c
 The function in this file allocates memory for an array, using malloc.
@@ -42,7 +42,7 @@ The function in this file reallocates a memory block using malloc and free
 - If new_size > old_size, the “added” memory is not be initialized
 - If new_size == old_size, nothing is done and ptr is returned
 - If ptr is NULL, then the call is equivalent to malloc(new_size), for all values of old_size and new_size
-- If new_size is equal to zero, and ptr is not NULL, then the call is equivalent to free(ptr). Return NULL
+- If new_size is equal to zero, and ptr is not NULL, then the call is equivalent to free(ptr). NULL is returned.
 - ptr is free'd
 
 ### Task 5 File: 101-mul.c
