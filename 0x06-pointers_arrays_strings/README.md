@@ -23,31 +23,31 @@ The function written in this file (2-strncpy.c) copies a string
 - The function works exactly like strncpy
 
 ### Task 3: 3-strcmp.c
-The function written in this task (3-strcmp.c) compares two strings (s1 and s2)
-- Prototype: void _puts(char *str);
+The function written in this file (3-strcmp.c) compares two strings (s1 and s2)
+- Prototype: int _strcmp(char *s1, char *s2);
 
-### Task 4:
+### Task 4: 4-rev_array.c
+The function written in this file (4-rev_array.c) reverses the content of an array of integers
+- Prototype: void reverse_array(int *a, int n);
 
-The function prints a string, in reverse, followed by a new line.
-- Prototype: void print_rev(char *s);
+### Task 5: 5-string_toupper.c
+The function written in this file (5-string_toupper.c) changes all lowercase letters of a string to uppercase
+- Prototype: char *string_toupper(char *str);
 
-### Task 5: 
+### Task 6: 6-cap_string.c
+The function written in this file (6-cap_string.c) capitalizes all words of a string
+- Prototype: char *cap_string(char *str);
 
-The function (rev_string) reverses a string.
-- Prototype: void rev_string(char *s);
+### Task 7: 7-leet.c
+The function written in this file (7-leet.c) encodes a string into 1337
+- Prototype: char *leet(char *str);
 
-### Task 6:
+### Task 8: 8-rot13.c
+The function written in this file encodes a string to rot13, without switch or ternary operations and using only one if and two loops.
 
-The function (puts2) prints every other character of a string, starting with the first character, followed by a new line.
-- Prototype: void puts2(char *str);
+### Task 9: 101-print_number.c
+The function written in this file (101-print_number.c) prints an integer without using long, arrays, pointers, or hard-coded special values.
+- Prototype: void print_number(int n);
 
-### Task 7:
-
-The function (puts_half) prints half of a string, followed by a new line.
-
-### Task 8: 
-
-The function (print_array) prints n elements of an array of integers, followed by a new line.
-
-## Conclusion
-
+### Task 10: 102-magic.c
+The function in this file (102-magic.c) completes the [source code](https://github.com/alx-tools/make_magic_happen/blob/master/magic.c) and prints a[2] = 98 using pointer magic.
