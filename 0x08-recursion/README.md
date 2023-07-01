@@ -56,6 +56,6 @@ The function in this file compares two strings s1 and s2.
 - Otherwise, the function returns 0.
 
 ## Conclusion
-While recursion offers an elegant solution in some cases, it is not always the most efficient approach. It is important to exercise caution when using recursion to avoid potential pitfalls such as infinite recursion, where the base case is not properly defined or reached, which can lead to program crashes or excessive memory usage.
+While recursion offers an elegant solution in certain scenarios, it may not always be the most efficient approach. It is crucial to exercise caution when utilizing recursion to prevent potential pitfalls, such as infinite recursion. This occurs when the base case is not adequately defined or reached, resulting in program crashes or excessive memory usage. 
 
-This project helped me to understand how essential it is to carefully design a recursive function, ensuring that they have well-defined termination conditions and handle correct edge cases in order to avoid infinite recursion and excessive memory usage.
+This project enhanced my understanding of the importance of meticulously designing recursive functions, ensuring they have well-defined termination conditions and appropriately handle edge cases to avoid infinite recursion and excessive memory usage.
