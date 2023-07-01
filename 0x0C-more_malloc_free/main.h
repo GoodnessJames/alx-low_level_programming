@@ -1,5 +1,12 @@
-#ifndef main_h
-#define main_h
+#ifndef MAIN_H
+#define MAIN_H
+
+/*
+ * File: main.h
+ * Desc: A header file containing all the function prototypes
+ *		 written in the project - 0x0C-more_malloc_free
+ *
+ */
 
 int _putchar(char c);
 void *malloc_checked(unsigned int b);
