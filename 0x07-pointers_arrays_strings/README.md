@@ -44,11 +44,11 @@ The function in this file locates a substring.
 
 ### Task 6: 7-print_chessboard.c
 
-The function in this file prints every other character of a string, starting with the first character, followed by a new line.
-- Prototype: void puts2(char *str);
+The function in this file prints the chessboard
+- Prototype: void print_chessboard(char (*a)[8]);
 
 ### Task 7: 8-print_diagsums.c
 
-The function prints the sum of the two diagonals of a square matrix of integers.
+The function in this file prints the sum of the two diagonals of a square matrix of integers.
 - Prototype: void print_diagsums(int *a, int size);
-- The standard library was used
+- The standard library is used
