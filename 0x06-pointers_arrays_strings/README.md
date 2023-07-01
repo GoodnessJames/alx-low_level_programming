@@ -42,7 +42,7 @@ The function written in this file (6-cap_string.c) capitalizes all words of a st
 The function written in this file (7-leet.c) encodes a string into 1337
 - Prototype: char *leet(char *str);
 
-### Task 8: 8-rot13.c
+### Task 8: 100-rot13.c
 The function written in this file encodes a string to rot13, without switch or ternary operations and using only one if and two loops.
 
 ### Task 9: 101-print_number.c
