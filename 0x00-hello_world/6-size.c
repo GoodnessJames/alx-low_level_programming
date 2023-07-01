@@ -2,7 +2,7 @@
 
 /**
 * main - Print the size of various types on the computer it is compiled and run on
-* Return: Return 0
+* Return: Returns 0
 */
 int main(void)
 {
