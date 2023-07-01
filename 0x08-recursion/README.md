@@ -1,4 +1,5 @@
 # Project Title: 0x08. C - Recursion
+Recursion in C is a programming technique where a function calls itself within its own body. It allows for solving complex problems by breaking them down into smaller, simpler instances. The recursive function typically has a **base case** that specifies when the recursion should **terminate**, and a **recursive case** that **defines** how the function calls itself with smaller inputs. Each recursive call creates a new instance of the function with its own set of variables, building a call stack. As the base case is reached, the function calls begin to unwind, with each call returning a value to the previous call until the original call completes. Recursion is a powerful tool for solving problems that exhibit a recursive structure or when an iterative solution may be cumbersome or less efficient.
 
 ## Description of each C-function File in the Tasks
 The functions implemented in each file for the project tasks **exclusively** utilize the **recursive** approach to problem-solving in the C programming language. Here are the functions written for each project task:
@@ -53,3 +54,8 @@ The function in this file compares two strings s1 and s2.
 - s2 can contain the special character *.
 - If the strings can be considered identical, the function returns 1.
 - Otherwise, the function returns 0.
+
+## Conclusion
+While recursion offers an elegant solution in some cases, it is not always the most efficient approach. It is important to exercise caution when using recursion to avoid potential pitfalls such as infinite recursion, where the base case is not properly defined or reached, which can lead to program crashes or excessive memory usage.
+
+This project helped me to understand how essential it is to carefully design a recursive function, ensuring that they have well-defined termination conditions and handle correct edge cases in order to avoid infinite recursion and excessive memory usage.
