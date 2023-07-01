@@ -42,7 +42,7 @@ The function in this file reallocates a memory block using malloc and free
 - If new_size > old_size, the “added” memory is not be initialized
 - If new_size == old_size, nothing is done and ptr is returned
 - If ptr is NULL, then the call is equivalent to malloc(new_size), for all values of old_size and new_size
-- If new_size is equal to zero, and ptr is not NULL, then the call is equivalent to free(ptr). Return NULL
+- If new_size is equal to zero, and ptr is not NULL, then the call is equivalent to free(ptr). NULL is returned.
 - ptr is free'd
 
 ### Task 5 File: 101-mul.c
