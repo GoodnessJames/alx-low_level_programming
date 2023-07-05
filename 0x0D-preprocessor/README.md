@@ -7,7 +7,7 @@ This project is centered on the following points:
 - Pre Processor Directives in C
 - The C Preprocessor
 - Standard Predefined Macros
-- include guard
+- Include guard
 - Common Predefined Macros
 
 The following are the tasks carried out on this topic to help solidify the theoretical knowledge gained from the learning resources:
@@ -22,7 +22,7 @@ The file (1-pi.h) in this task creates a header file that defines a macro named 
 
 ## Task 2
 
-The file (2-main.c) in this task prints the name of the file it was compiled from, followed by a new line using the standard library.
+The function in file (2-main.c) prints the name of the file it was compiled from, followed by a new line using the standard library.
 
 ## Task 3
 
