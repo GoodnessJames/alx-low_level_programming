@@ -22,7 +22,7 @@ The file (1-pi.h) in this task creates a header file that defines a macro named 
 
 ## Task 2
 
-The function in file (2-main.c) prints the name of the file it was compiled from, followed by a new line using the standard library.
+The function in this file (2-main.c) prints the name of the file it was compiled from, followed by a new line using the standard library.
 
 ## Task 3
 
