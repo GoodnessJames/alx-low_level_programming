@@ -53,28 +53,45 @@ In this task, a program is created that performs simple operations.
 	op_div: returns the result of the division of a by b. Prototype: int op_div(int a, int b);
 	
 	op_mod: returns the remainder of the division of a by b. Prototype: int op_mod(int a, int b);
+
 - **3-get_op_func.c:** This file contains the function that selects the correct function to perform the operation asked by the user.
 
 **File Requirements:**
+
 	- **Prototype:** int (*get_op_func(char *s))(int, int);
+ 
 	- where s is the operator passed as an argument to the program
+ 
 	- This function returns a pointer to the function that corresponds to the operator given as a parameter.
+ 
 	- Switch statements are not used for this function code
+ 
 	- For or do ... while loops are not used
+ 
 	- goto statement is not used
+ 
 	- else condition is not used
+ 
 	- More than one if statement is not used in this code
+ 
 	- More than one while loop is not used in the code
+ 
 	- If `s` does not match any of the 5 expected operators (+, -, *, /, %), NULL is returned
+ 
 	- Only two variables are declared in this function.
 
 - **3-main.c:** This file contains the main function only
 
 **File Requirements:**
+
 	- Any other function than main is not coded in this file
+ 
 	- op_add, op_sub, op_mul, op_div or op_mod is not directly called from the main function
+ 
 	- atoi function is used to convert arguments to int
+ 
 	- Any kind of loop is not used for this function code
+ 
 	- Maximum of 3 if statements are used for the code
 
 ### Task 4 File: 100-main_opcodes.c
