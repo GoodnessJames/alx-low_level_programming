@@ -46,4 +46,4 @@ This task involves creating a bash script called create_static_lib.sh that creat
 - **create_static_lib.sh:** The bash script that creates a static library called liball.a
 
 ## Conclusion
-Static libraries are a fundamental building block in C programming, allowing for modular code organization, code reuse, and efficient distribution of compiled code. And they can consume a relatively large amount of memory space.
+Static libraries are fundamental building blocks in C programming, allowing for modular code organization, code reuse, and efficient distribution of compiled code. They have a drawback of consuming a relatively large amount of memory space.
