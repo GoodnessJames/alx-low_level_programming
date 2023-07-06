@@ -2,7 +2,7 @@
 
 This project is centered on function pointers in C, their relevance, and their application to C programs.
 
-## Description of the files created for each task in the project
+## Description of the files created for each project task
 
 ### Task 0 File: 0-print_name.c
 The function written in this file (0-print_name.c) prints a name
