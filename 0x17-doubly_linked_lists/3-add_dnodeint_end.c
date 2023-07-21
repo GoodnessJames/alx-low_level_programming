@@ -6,7 +6,7 @@
  * @n: The integer to assign to the new node inserted at the end of the list
  *
  * Return: If the function FAILS returns NULL
- *         On SUCCESS returns the address of the new node
+ *         On SUCCESS returns (end) ie the address of the new node
  */
 dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 {
