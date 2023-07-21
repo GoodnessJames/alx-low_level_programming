@@ -5,7 +5,7 @@
  * @head: A pointer to the first node of the dlistint_t list
  * @n: The integer to assign to the new node inserted at the end of the list
  *
- * Return: If the function FAIL returns NULL
+ * Return: If the function FAILS returns NULL
  *         On SUCCESS returns the address of the new node
  */
 dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
