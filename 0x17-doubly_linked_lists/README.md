@@ -4,7 +4,7 @@ This project is centered on doubly-linked lists in C.
 
 # Description of the Project Files of each Task
 
-* [tests](./tests): Folder of test files. Provided by ALX.
+* [test](./test): Folder of test files. Provided by ALX.
 
 ## Header File :file_folder:
 
