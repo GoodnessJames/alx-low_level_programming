@@ -1,5 +1,4 @@
 # Project Title: Dynamic Libraries in C
-
 In this project, I gained knowledge about utilizing dynamic libraries in C programming 
 language. This includes understanding the process of creating dynamic libraries and 
 effectively using them with various tools such as `$LD_LIBRARY_PATH`, `nm`, `ldd`, 
