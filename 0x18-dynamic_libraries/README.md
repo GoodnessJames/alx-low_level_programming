@@ -1,4 +1,4 @@
-# Project Title: Dynamic libraries in C
+# Project Title: Dynamic Libraries in C
 
 In this project, I gained knowledge about utilizing dynamic libraries in C programming 
 language. This includes understanding the process of creating dynamic libraries and 
@@ -7,7 +7,7 @@ and `ldconfig`.
 
 ## Description of the Files Created for each Project Task
 
-* [tests](./tests): Folder of test files. Provided by ALX SE School.
+* [test](./test): Folder of test files. Provided by ALX SE School.
 
 ## Tasks :page_with_curl:
 
