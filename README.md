@@ -1,4 +1,5 @@
 # ALX Low Level Programming
+
 This repository covers everything on low level programming in C. The following are the general learning objectives of this repository:
 - Why C programming is awesome
 - Who invented C
